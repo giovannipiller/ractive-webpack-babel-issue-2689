@@ -10,14 +10,15 @@ Github issue: https://github.com/ractivejs/ractive/issues/2689
 - Now click on "This should console.info('Teardown')"
 
 **EXPECTED:** console.info("Teardown") should appear in the console
+
 **ACTUAL:** nothing gets displayed. Decorator's teardown is not called.
 
 
-Note: unwrapping the `{{#with}}` from `dashboard` component will result in the expected result:
+**Note:** unwrapping the `{{#with}}` from `dashboard` component will result in the expected result:
 
 ```
 {{#with { example: true } }}
   <h1 decorator="tooltipDecorator">This is decorated</h1>
 {{/with}}
 ```
-- dashboard's template
+dashboard's template
