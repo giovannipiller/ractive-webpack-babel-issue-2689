@@ -1,0 +1,27 @@
+{
+  "name": "mockapp",
+  "private": true,
+  "engines": {
+    "node": "5.1.1",
+    "npm": "3.3.12"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --watch --progress --profile --colors --config webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-cli": " 6.16.0",
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-polyfill": "6.16.0",
+    "babel-preset-es2015": "6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "ractive": "https://github.com/ractivejs/ractive.git#667c490c55505b208708a3112eedb890fed7c476",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  },
+  "dependencies": {
+    "jasmine": "2.5.2",
+    "karma": "1.3.0"
+  }
+}
