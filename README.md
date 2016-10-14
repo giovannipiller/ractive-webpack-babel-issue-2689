@@ -16,6 +16,8 @@ Github issue: https://github.com/ractivejs/ractive/issues/2689
 
 **Note:** unwrapping the `{{#with}}` from `dashboard` component will result in the expected result:
 
+**Note 2:** commit 667c490c55505b208708a3112eedb890fed7c476 is hardcoded in package.json
+
 ```
 {{#with { example: true } }}
   <h1 decorator="tooltipDecorator">This is decorated</h1>
